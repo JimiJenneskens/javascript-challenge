@@ -26,14 +26,14 @@ function handleClick() {
     const date = d3.select("#datetime").property("value");
 
     // Create new variable of the original data
-    var filteredData = tableData; 
+    var filterData = tableData; 
 
     if (date) {
         // Create new table with filtered data
-        var filteredData = filteredData.filter(info => info.datetime === date);
+        var filterData = filterData.filter(info => info.datetime === date);
     };
 
-    buildTable(filteredData)
+    buildTable(filterData)
 
 };
 
