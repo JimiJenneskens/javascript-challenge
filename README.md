@@ -38,3 +38,9 @@ Table of contents <a name="toc"></a>
 
 * index.html -- UFO Finder webpage (five filters search).
 * static/js/app.js -- JavaScript for index.html webpage functionality.
+
+#### Screenshot level 1
+![Level 1 screenshot](Screenshot_level-1.jpg)
+
+#### Screenshot level 2
+![Level 2 screenshot](Screenshot_level-2.jpg)
